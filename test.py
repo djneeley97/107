@@ -25,7 +25,7 @@ else:
 # function say_hello(){}
     
 def say_hello():
-    print("Goodbye"+ name)
+    print("Hello there")
 
 def say_goodbye(name):
     print("Goodbye"+ name)
@@ -36,3 +36,30 @@ say_goodbye()
 
 #concatenate
 print("Hello my name is"+ name +"and i am" + str(age) + "years old")
+
+#array
+#list
+color = ["white","red","black","blue"]
+print(color)
+#add
+color.append("pink")
+print(color)
+#travel the list 
+for colors in color:
+    print(colors)
+# for(i=0;color.len;i++)
+    # let temp = color[i]
+    #console.log(temp)
+
+    #dictionary
+    me={
+        "first_name":"Daniel",
+        "month":"october",
+        "last_name":"Neeley",
+        "age":26,
+    }
+    print(me["first_name"])
+
+    me["age"] = 99
+    me["color"]="Blue"
+    print(me)

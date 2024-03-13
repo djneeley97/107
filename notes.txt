@@ -1,0 +1,6 @@
+install virtualenv
+
+create the virtualenv
+
+activate the venv that we create
+win venv\scripts\activate
